@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raymond's Website - Contact</title>
+    <link rel="stylesheet" href="CSS/Stylesheet.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div id = "NavBar">
+        <ul>
+         <li><a href="AboutMe.html">About Me</a></li>
+          <li><a href="Photos.html">Photos</a></li>
+           <li><a href="Hobbies.html">Hobbies</a></li>
+           <li><a href="Skills.html">Skills</a></li>
+           <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    <div id="Banner"></div>
+    <br/>
+    <br/>
+    <h1>Raymond Lawson</h1>
+    <form id = "Contact" method="post" autocomplete="on">
+        <fieldset>
+            <legend style="text-align: center;">Contact Me:</legend>
+            <ul>
+                <label for="subject"><span>*</span>Subject: </label>
+                <li><input type="text" id="subject" name="subject" maxlength="50" placeholder="Enter a subject." required autofocus autocomplete="off"></li>
+            </ul>
+            <ul>
+                <label for="name"><span>*</span>Name: </label>
+                <li><input type="text" id="name" name="name" maxlength="30" placeholder="Enter your name." required autocomplete="off"></li>
+            </ul>
+            <ul>
+                <label for="email">Email: </label>
+                <li><input type="email" id="email" name="email" placeholder="Enter a valid email." autocomplete="off"></li>
+            </ul>
+            <ul>
+                <label for="message"><span>*</span>Message: </label>
+                <li><textarea id = "message" name = "message" rows = "10" cols = "30" maxlength="320" placeholder="Enter your message (320 char max)." required autocomplete="off"></textarea></li>
+            </ul>
+            <div align = "center"><input type="submit" value="Submit">
+                <br><p style="font-size: 10px;"><span>* = REQUIRED</span></p>
+            </div>
+            
+        </fieldset>
+        
+    </form>
+</body>
+</html>
