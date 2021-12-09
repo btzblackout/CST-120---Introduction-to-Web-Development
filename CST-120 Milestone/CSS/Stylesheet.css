@@ -1,0 +1,70 @@
+/*Remove bullets, default space, and set the background color of nav-bar.*/
+#NavBar ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e6f2ff;
+}
+
+/*Set the nav bar tabs horizontal*/
+#NavBar li
+{
+    display: inline;
+}
+
+/*Add space between nav-bar tabs, Remove the line under nav-bar links, Set color and font.*/
+#NavBar li a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+/*Set the web pages background color.*/
+body
+{
+    background-color: #0099ff;
+}
+/*Align headers to the center of page*/
+h1
+{
+    text-align: center;
+}
+
+/*Contact Page*/
+
+/*Remove the bullets*/
+#Contact ul
+{
+    text-align: center;
+    list-style-type: none;
+}
+#Contact li
+{
+    display: inline-block;
+}
+/*Spruce up the basic fieldset (round corners, shadow, etc.)*/
+#Contact fieldset
+{
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid #666;
+    box-shadow: 0 0 10px #666;
+    background-color: white;
+    max-width: 500px;
+}
+#Contact span
+{
+    color: red;
+}
+
+/*Skills Page*/
+
+/*Set the background and border for the table.*/
+#skillTable, th, td
+{
+    background: white;
+    border:1px solid black;
+}
